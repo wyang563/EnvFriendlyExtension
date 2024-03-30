@@ -12,6 +12,7 @@
   },
   "author": "theresa huang and will yang",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/wyang563/EnvFriendlyExtension/issues"
   },
