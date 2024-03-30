@@ -1,7 +1,6 @@
 const fs = require('fs')
 
 function selectOrg() {
-    
     fs.readFile('./textData/orgs.txt', (err, data) => {
         if (err) {
             console.log("error in selectOrg")
@@ -44,3 +43,5 @@ function selectHabits() {
         return habits[Math.floor(Math.random() * habits.length)];
     })
 }
+
+selectOrg();

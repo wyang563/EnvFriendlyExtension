@@ -1,0 +1,19 @@
+{
+  "name": "envfriendlyextension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyang563/EnvFriendlyExtension.git"
+  },
+  "author": "theresa huang and will yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyang563/EnvFriendlyExtension/issues"
+  },
+  "homepage": "https://github.com/wyang563/EnvFriendlyExtension#readme"
+}
