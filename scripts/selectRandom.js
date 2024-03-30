@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-function selectOrg() {
+export function selectOrg() {
     
     fs.readFile('./textData/orgs.txt', (err, data) => {
         if (err) {
@@ -21,7 +21,7 @@ function selectOrg() {
 
 }
 
-function selectFacts() {
+export function selectFacts() {
     fs.readFile('./textData/facts.txt', (err, data) => {
         if (err) {
             console.log("error in selectFacts")
@@ -33,7 +33,7 @@ function selectFacts() {
     })
 }
 
-function selectHabits() {
+export function selectHabits() {
     fs.readFile('./textData/habits.txt', (err, data) => {
         if (err) {
             console.log("error in selectHabits")
